@@ -1,28 +1,26 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  background: url('/assets/images/login_bg.jpg') no-repeat center;
-  background-size: cover;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+   background: url('/assets/images/login_bg.jpg') no-repeat center/cover;
+   background-size: cover;
 }
-
 .loginAndRegBox {
   width: 400px;
   height: 310px;
-  background-color: #fff;
+  background-color: #ffffff;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%);
 }
-
 .title-box {
   height: 60px;
-  background: url('/assets/images/login_title.png') no-repeat center;
+  background: url('/assets/images/login_title.png')
+  no-repeat center;
 }
-
 .reg-box {
   display: none;
 }
@@ -51,5 +49,6 @@ body {
 }
 
 .layui-input {
-  padding-left: 32px;
+  padding-left: 35px;
 }
+
