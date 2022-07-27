@@ -1,6 +1,7 @@
 $(function(){
 
     getUserInfo()
+    renderAvator()
 
     let layer = layui.layer
     $('#btnLogout').on('click', function(){
